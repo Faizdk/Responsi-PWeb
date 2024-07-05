@@ -3,6 +3,8 @@
   <section class="hero">
    <div class="container">
     <div class="main-body">
+
+      
     
           <div class="row gutters-sm">
             <div class="col-md-4 mb-3">
@@ -134,29 +136,12 @@
         </div>
     </div>
   </section>
-  <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Riwayat Pendidikan</h1> 
-  </div>
-  <div class="timeline">
-  <div class="container l">
-    <div class="content">
-      <h2>2022 - Sekarang</h2>
-      <p>Universitas Amikom Yogyakarta</p>
-    </div>
-  </div>
-  <div class="container r">
-    <div class="content">
-      <h2>2018 - 2021</h2>
-      <p>Islamic Center Bin Baz</p>
-    </div>
-  </div>
-</div>
-</div>
+  
 </template>
 
 <script>
 export default {
+  name: 'HeroSection',
   data() {
     return {
       link1: 'https://github.com/Faizdk',
@@ -169,7 +154,7 @@ export default {
 <style scoped>
 .hero {
   text-align: center;
-  padding: 100px 0;
+  padding: 180px 0;
   background-image: url(https://images.unsplash.com/photo-1628882185379-0dd168dfd07a?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 
@@ -182,31 +167,6 @@ export default {
   opacity: 90%;
   border-radius: 10px;
   
-}
-
-.timeline {
-  margin-top: 800px;
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 6px;
-  background-color: white;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-}
-
-.container {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
 }
   
 </style>
