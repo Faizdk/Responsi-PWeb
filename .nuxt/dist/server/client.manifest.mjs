@@ -1,0 +1,1 @@
+export { default } from "file:///E:/AMIKOM/semester%204/PW-Responsi/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
