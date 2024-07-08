@@ -5,7 +5,7 @@
     <div class="main-body">
 
       
-    
+          
           <div class="row gutters-sm">
             <div class="col-md-4 mb-3">
               <div class="card">
@@ -153,8 +153,9 @@ export default {
 </script>
 <style scoped>
 .hero {
+  height: 100vh;
   text-align: center;
-  padding: 180px 0;
+  padding: 140px 0;
   background-image: url(https://images.unsplash.com/photo-1628882185379-0dd168dfd07a?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 
