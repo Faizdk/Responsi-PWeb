@@ -2,6 +2,14 @@
   <div>
     <HeroSection />
   </div>
+  <nav>
+       <section class="nav">
+             <a><NuxtLink to="/" class="nav-item">Home</NuxtLink></a>
+             <a><NuxtLink to="/about" class="nav-item">About</NuxtLink></a>
+             <a><NuxtLink to="/project" class="nav-item">Project</NuxtLink></a>
+             <a><NuxtLink to="/contact" class="nav-item">Contact</NuxtLink></a>
+       </section>
+     </nav>
 </template>
 
 <script>
