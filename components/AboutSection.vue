@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="image">
-        <img src="assets/Hand coding-amico.png" alt="">
+        
       </div>
   </section>
   
