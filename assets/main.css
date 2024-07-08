@@ -4,3 +4,41 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#3f3f3f;
+    align-items: center;
+    padding: 15px 45px;
+    position:fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+.nav-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+.nav-item{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 20px;
+}
+.nav-item:hover {
+    color: #a0a0a0;
+    font-size: 19.5px;
+    transition:cubic-bezier(0.1s);
+}
+
+.nav-item:active {
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    background-color: #3f3f3f;
+}
